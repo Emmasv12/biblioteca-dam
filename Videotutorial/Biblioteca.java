@@ -17,6 +17,7 @@ public class Biblioteca {
 
     public void mostrarLibros() {
         for (int i = 0; i < contador; i++) {
+            System.out.println("Catálogo completo de la biblioteca:");
             System.out.println(libros[i].getTitulo() + " - " + libros[i].getAutor());
         }
     }
